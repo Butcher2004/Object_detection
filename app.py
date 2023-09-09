@@ -69,5 +69,4 @@ def video_feed():
 def video_stop():
     return Response(stop())
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
