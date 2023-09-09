@@ -1,6 +1,6 @@
 import cv2
 from flask import Flask, Response, render_template
-import random as r
+
 app = Flask(__name__)
 
 
