@@ -1,0 +1,109 @@
+
+@font-face {
+    font-family: brusher;
+    src: url(Brusher.ttf);
+}
+
+
+body{
+    background-color: rgb(197, 172, 132);
+    /* padding: 1cm; */
+
+
+}
+
+h1{
+    /* background-color: rgba(255, 239, 213, 0.866); */
+    text-align: center;
+    font-size: 8vh;
+    font-family: brusher;
+    /* font-family: 'Rubik Iso', cursive; */
+    margin-left: 65vh;
+    letter-spacing: 0.4vh;
+    width: 70vh;
+    margin-bottom: 2vh;
+    /* border: solid black; */
+    /* border-width: 10px; */
+    
+
+    /* border: black dashed 5px; */
+}
+
+.Body
+{
+    box-shadow: 5vh 5vh 20vh rgba(0, 0, 0, 0.8);
+    height: 75vh;
+    background-color: rgba(156, 121, 74, 0.773);
+    width: 180vh;
+    margin-left: 11vh;
+    
+}
+/* .video
+{
+    font-size: 3vh;
+    height: 70vh;
+    width: 85vh;
+    
+    background-color: rgb(29, 27, 25);
+    float: left;
+    align-content: center;
+} */
+#video_feed
+{
+    float: left;
+    margin: 2.5vh;
+    width: 90vh;
+    height: 70vh;
+}
+.start_stop
+{
+    float: right;
+    /* background-color: aqua; */
+    height: 40vh;
+    width: 40vh;
+    margin: 18vh;
+    display: grid;
+    place-items: center;
+}
+#startCapture, #stopCapture
+{
+    font-family: ADLaM Display;
+    font-size: 3vh;
+    height: 10vh;
+    width: 30vh;
+    border: none;
+    box-shadow: 2vh, 2vh, 10vh rgba(0, 0, 0, 1);
+    background-color: rgb(235, 213, 186);
+    border-radius: 2vh;
+}
+
+.List
+{
+    margin-top: 10vh;
+    margin-left: 11vh;
+    
+}
+h2
+{
+    font-size: 6vh;
+    font-family: brusher;
+}
+p{
+    background-color: rgba(156, 121, 74, 0.9);
+    width: 19vh;
+    height: 4vh;
+    font-size: 2.5vh;
+    text-transform: capitalize;
+    text-wrap: nowrap;
+    text-align: center;
+    padding-top: 0.25vh;
+    border-radius: 1vh;
+    font-weight: bold;
+}
+.box
+{
+    margin: 2vh;
+
+}
+
+
